@@ -1,6 +1,6 @@
 export PYSPARK_PYTHON=python3
 export ENVIRON=PROD
-export SRC_DIR='/home/$(whoami)/retail-topic/'
+export SRC_DIR='home/$(whoami)/retail-topic/'
 export APP_NAME='retail_db_poc'
 spark-submit \
 --master yarn \
